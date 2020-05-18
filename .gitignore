@@ -1,0 +1,5 @@
+.IDEA
+.DS_STORE
+*.code-workspace
+
+swc-python/*
