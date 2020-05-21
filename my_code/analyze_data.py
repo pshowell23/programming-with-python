@@ -34,12 +34,9 @@ print(element[1:-1]) #returns xyge
 
 # How can we rewrite the slice for getting the last three characters of element, so that it works even if we assign a different string to element?
 def print_last_three(el):
-    print('The last three characters are:', el[-3:])
+    print('The last three characters of', el, 'are:', el[-3:])
 
 print_last_three(element)
-element = 'carpentry'
-print_last_three(element)
-element = 'clone'
-print_last_three(element)
-element = 'hi'
-print_last_three(element)
+print_last_three('carpentry')
+print_last_three('clone')
+print_last_three('hi')
