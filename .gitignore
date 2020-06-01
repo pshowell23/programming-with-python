@@ -1,6 +1,7 @@
 .IDEA
 .DS_STORE
 *.code-workspace
+.vscode
 
 swc-python/*
 
