@@ -44,7 +44,11 @@ def divide(nums):
     total = 1
     for num in nums:
         num = int(num)
-        total = num / total
+        if total == 1:
+            total = num
+            print(total)
+        else:
+            total = total / num
     return format_number(total)
 
 def format_number(number):
