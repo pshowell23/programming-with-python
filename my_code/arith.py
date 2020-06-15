@@ -46,7 +46,6 @@ def divide(nums):
         num = int(num)
         if total == 1:
             total = num
-            print(total)
         else:
             total = total / num
     return format_number(total)
